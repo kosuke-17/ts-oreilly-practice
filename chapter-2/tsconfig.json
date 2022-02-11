@@ -1,0 +1,17 @@
+{
+  // tsプロジェクトの設定を定義する場所
+  "compilerOptions": {
+    // コードの実行環境
+    "lib": ["es2015"],
+    // TSCがどのモジュールシステムにコンパイルするべきか
+    "module": "commonjs",
+    // コンパイルしたファイルの出力先の指定
+    "outDir": "dist",
+    "sourceMap": true,
+    // 厳格なコードチェック
+    "strict": true,
+    // TSCがコンパイルするjsのversionを指定
+    "target": "es2015"
+  },
+  "include": ["src"]
+}
